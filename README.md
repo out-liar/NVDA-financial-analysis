@@ -1,5 +1,5 @@
 # basic-stock-portfolio-analysis
-Basic analysis of stocks and some financial ratios resulting in a CAPGM comparison
+Basic analysis of stocks and some financial ratios resulting in a CAPM comparison
 <p>This project uses Anaconda, NumPy, Pandas DataReader to show:<br>
 Portfolios and returns<br>
 Volitilty and Risk<br>
