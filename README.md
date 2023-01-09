@@ -42,3 +42,10 @@ data = pd.read_csv("NVDA.csv", index_col=0, parse_dates=True)
 # Use index_col to remove the automatic indexing and instead use the dates as the index.
 # USe parse_dates to convert the date column from an object data type to datetime.
 ata.head()
+
+
+Making basic calculations:
+#Calculating the daily percentage change
+daily_percentage_change = (data['Close'] - data['Open'])/data['Open']*100
+daily_percentage_change
+
